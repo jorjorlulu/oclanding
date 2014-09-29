@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+body{
+	background-color: #000;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	font-family: 'cwTeXHei', verdana;
+}
+
+#header {
+  margin-top: 44px;
+}
+
+.tagline {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.hero{
+	text-align: center;
+	color: #ffea00;
+	padding-top: 10px;
+	
+}
+
+.link a:link, .link a:visited, .link a:hover, .link a:active{
+	color:#FFF;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+}
+
+#space{
+	display: block;
+	height: 136px;
+}
+
+ul{
+	text-align: center;
+}
+
+	li{
+		width:95px;
+		height:82px;
+		padding-top:76px;
+		display:inline-block;
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		color: #FFF;
+		padding-bottom: 37px;
+		font-size: 20px;
+	}
+
+	li#live{
+		background-image: url("../img/li1.png");
+	}
+
+	li#map{
+		background-image: url("../img/li2.png");
+	}
+
+	li#news{
+		background-image: url("../img/li3.png");
+	}
+
+	li#res{
+		background-image: url("../img/li4.png");
+	}
+
+.section{
+	background-color: #ffea00;
+}
+
+	.section h2{
+		padding-top:35px;
+		display: inline-block;
+		padding-right:20px;
+		text-align: right;
+	}
+
+	.section .details{
+		padding-top:42px;
+		padding-bottom:42px;
+	}
+
+		.section p{
+			display: inline-block;
+			line-height: 13px;
+		}
+
+.footer{
+	background-color: #FFF;
+}
+	.footer #playstore{
+		margin: 20px;
+		display: block;
+		text-align: center;
+	}
+	.footer #social{
+		margin: 20px;
+		display: block;
+		text-align: center;
+	}
